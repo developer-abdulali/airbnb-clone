@@ -1,10 +1,22 @@
+// export type DemoProperty = {
+//   id: string;
+//   name: string;
+//   image: string;
+//   city: string;
+//   pricePerNight: number;
+//   hostName: string;
+//   rating: number;
+//   maxGuests: number;
+//   availableDates: string[];
+// };
+
 export type DemoProperty = {
   id: string;
-  name: string;
+  title: string;
   image: string;
   city: string;
   pricePerNight: number;
-  hostNmae: string;
+  hostName: string;
   rating: number;
   maxGuests: number;
   availableDates: string[];
